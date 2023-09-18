@@ -6,7 +6,8 @@ public class DatabaseContext : DbContext
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
     }
-
+    public DbSet<User> User { get; set; }
+    public DbSet<Admin> Admin { get; set; }
     public DbSet<BrandMst> BrandMsts { get; set; }
     public DbSet<CatMst> CatMsts { get; set; }
     public DbSet<CertifyMst> CertifyMsts { get; set; }

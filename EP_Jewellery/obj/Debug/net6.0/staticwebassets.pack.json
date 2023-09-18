@@ -1253,6 +1253,10 @@
       "PackagePath": "staticwebassets\\FE\\css\\jquery-ui.css"
     },
     {
+      "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\login.css",
+      "PackagePath": "staticwebassets\\FE\\css\\login.css"
+    },
+    {
       "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\FE\\css\\magnific-popup.css"
     },
@@ -1371,6 +1375,10 @@
     {
       "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\women.jpg",
       "PackagePath": "staticwebassets\\FE\\images\\women.jpg"
+    },
+    {
+      "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\Login.js",
+      "PackagePath": "staticwebassets\\FE\\js\\Login.js"
     },
     {
       "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\aos.js",
