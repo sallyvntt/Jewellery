@@ -46,7 +46,7 @@ app.MapControllerRoute(
 // Cấu hình Route cho Areas
 app.MapControllerRoute(
     name: "admin",
-    pattern: "{area}/{controller}/{action=Index}/{id?}"
+    pattern: "{area}/{controller=Admin}/{action=Index}/{id?}"
 );
 
 app.MapRazorPages();
