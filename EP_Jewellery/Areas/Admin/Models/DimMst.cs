@@ -8,8 +8,11 @@ namespace EP_Jewellery.Models
         [System.ComponentModel.DataAnnotations.Key]
         public int DimMst_ID { get; set; } // Khóa chính của bảng DimMst
 
-        [ForeignKey("Stone")]
-        public string Style_Code { get; set; } // Khóa ngoại đến bảng StoneMst (Style_Code)
+        [Required]
+        [ForeignKey("Item")]
+        public string Style_Code { get; set; } // Khóa ngoại đến bảng ItemMst (Code Of Style)
+
+        public ItemMst Item { get; set; } // Thêm một thuộc tính để biểu thị mối quan hệ
 
         [ForeignKey("DiamondQuality")]
         public string DimQlty_ID { get; set; } // Khóa ngoại đến bảng DiamondQuality
@@ -41,8 +44,7 @@ namespace EP_Jewellery.Models
         [Column(TypeName = "decimal(10,2)")]
         public decimal Dim_Amt { get; set; } // Tổng số tiền của tất cả kim cương trong sản phẩm
 
-        // Khóa ngoại đến bảng StoneMst (Style_Code)
-        public ItemMst Stone { get; set; }
+        
 
         // Khóa ngoại đến bảng DiamondQuality
         public DimQltyMst DiamondQuality { get; set; }

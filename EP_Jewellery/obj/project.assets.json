@@ -11109,23 +11109,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ĐỒ ÁN KỲ 3 JWELLL\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
       "projectName": "EP_Jewellery",
-      "projectPath": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\ĐỒ ÁN KỲ 3 JWELLL\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\ĐỒ ÁN KỲ 3 JWELLL\\Jewellery\\EP_Jewellery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11135,6 +11135,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11191,7 +11192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
