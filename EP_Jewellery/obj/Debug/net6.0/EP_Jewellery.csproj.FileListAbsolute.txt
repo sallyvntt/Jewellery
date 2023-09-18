@@ -1345,3 +1345,11 @@ D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\scopedcss\projectbundle\EP_Jewellery.
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.csproj.CopyComplete
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.genruntimeconfig.cache
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\ref\EP_Jewellery.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\EntityFramework.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\EP_Jewellery\Jewellery\EP_Jewellery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
