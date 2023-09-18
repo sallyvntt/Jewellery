@@ -38,6 +38,9 @@ namespace EP_Jewellery.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("role")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("username");
 
                     b.ToTable("AdminLoginMst");

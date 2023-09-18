@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EP_Jewellery.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230918041632_Diep")]
+    [Migration("20230918050908_Diep")]
     partial class Diep
     {
         /// <inheritdoc />
@@ -39,6 +39,9 @@ namespace EP_Jewellery.Migrations
 
                     b.Property<string>("password")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("role")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("username");

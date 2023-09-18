@@ -1,5 +1,8 @@
 ﻿using EP_Jewellery.Db;
+using EP_Jewellery.Repository.Home;
+using EP_Jewellery.Service.Home;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,8 +20,11 @@ builder.Services.AddCors(options =>
 
 // Thêm dịch vụ Razor Pages
 builder.Services.AddRazorPages();
+
 builder.Services.AddDbContext<DatabaseContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("string")));
 
+builder.Services.AddScoped<IHome, HomeService>();
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,7 +39,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(

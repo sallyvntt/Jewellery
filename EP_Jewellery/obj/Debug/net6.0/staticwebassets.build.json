@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zn9V3GONXO3vV9BjOljh9fY6XBOv9vCIS91IFZRPjxo=",
+  "Hash": "VYoM6VysSP5OQhqEbSmwgpSV8rYBbn8C3nK2nJVXRFQ=",
   "Source": "EP_Jewellery",
   "BasePath": "_content/EP_Jewellery",
   "Mode": "Default",
@@ -5355,6 +5355,23 @@
       "OriginalItemSpec": "wwwroot\\FE\\css\\jquery-ui.css"
     },
     {
+      "Identity": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\login.css",
+      "SourceId": "EP_Jewellery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\",
+      "BasePath": "_content/EP_Jewellery",
+      "RelativePath": "FE/css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FE\\css\\login.css"
+    },
+    {
       "Identity": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\magnific-popup.css",
       "SourceId": "EP_Jewellery",
       "SourceType": "Discovered",
@@ -5948,6 +5965,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\FE\\js\\jquery-ui.js"
+    },
+    {
+      "Identity": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\Login.js",
+      "SourceId": "EP_Jewellery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\",
+      "BasePath": "_content/EP_Jewellery",
+      "RelativePath": "FE/js/Login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FE\\js\\Login.js"
     },
     {
       "Identity": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\main.js",
