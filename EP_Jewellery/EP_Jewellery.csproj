@@ -11,9 +11,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
     <Folder Include="Models\" />
-    <Folder Include="wwwroot\FE\css\" />
+    <Folder Include="Repository\Admin\" />
+    <Folder Include="Service\Admin\" />
     <Folder Include="wwwroot\FE\images\" />
-    <Folder Include="wwwroot\FE\js\" />
   </ItemGroup>
 
   <ItemGroup>

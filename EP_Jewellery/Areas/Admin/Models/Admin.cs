@@ -15,6 +15,8 @@ namespace EP_Jewellery.Models
         public string password { get; set; }
         public int id { get; set; }
         public string name { get; set; }
+        public string? role { get; set; }
+
 
     }
 }
