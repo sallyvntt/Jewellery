@@ -1,4 +1,5 @@
-﻿using EP_Jewellery.Models;
+﻿using EP_Jewellery.Db;
+using EP_Jewellery.Models;
 using EP_Jewellery.Repository.Home;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
