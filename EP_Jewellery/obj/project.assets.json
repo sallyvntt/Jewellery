@@ -12583,23 +12583,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\NGUYEN NGOC DIEP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
+      "projectUniqueName": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
       "projectName": "EP_Jewellery",
-      "projectPath": "D:\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Jewellery\\EP_Jewellery\\obj\\",
+      "projectPath": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\EP_Jewellery.csproj",
+      "packagesPath": "C:\\Users\\NGUYEN NGOC DIEP\\.nuget\\packages\\",
+      "outputPath": "C:\\EP_Jewellery\\Jewellery\\EP_Jewellery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NGUYEN NGOC DIEP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12677,7 +12677,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
