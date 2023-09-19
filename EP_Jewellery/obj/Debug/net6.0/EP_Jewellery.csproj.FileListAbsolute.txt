@@ -1069,3 +1069,6 @@ C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\ob
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.pdb
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\obj\Debug\net6.0\ref\EP_Jewellery.dll
+C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

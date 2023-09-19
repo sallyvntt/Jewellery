@@ -1,8 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EP_Jewellery.Areas.Admin.Repository;
+using EP_Jewellery.Areas.Admin.Service;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IBrand, BrandService>();
 
 builder.Services.AddDbContext<JeweDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("String")));
 builder.Services.AddControllersWithViews();
@@ -36,18 +39,30 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// Cấu hình Route cho Areas
-app.MapControllerRoute(
-    name: "admin",
-    pattern: "{area}/{controller}/{action=Index}/{id?}"
-);
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "area",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
+        defaults: "action=Index"
+
+    );
+   
+
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+
+    endpoints.MapDefaultControllerRoute();
+
+});
 
 app.MapRazorPages();
 app.UseCors("AllowAll");
-
+app.MapControllers();
+app.UseRouting();
 
 app.Run();
