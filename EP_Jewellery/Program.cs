@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IBrand, BrandService>();
+builder.Services.AddScoped<ICat, CatService>();
+
 
 builder.Services.AddDbContext<JeweDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("String")));
 builder.Services.AddControllersWithViews();
@@ -60,6 +62,11 @@ app.UseEndpoints(endpoints =>
         name: "brand",
         areaName: "Brand",
         pattern: "admin/brand/{controller=Brand}/{action=Index}/{id?}"
+    );// Route cho khu vực "Cates"
+    endpoints.MapAreaControllerRoute(
+        name: "cate",
+        areaName: "Cate",
+        pattern: "admin/cate/{controller=Cate}/{action=Index}/{id?}"
     );
 
     endpoints.MapControllerRoute(

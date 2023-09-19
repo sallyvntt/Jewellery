@@ -1,0 +1,41 @@
+﻿@model EP_Jewellery.Models.CatMst
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">Create Category</div>
+        <div class="card-body card-block">
+            <form asp-action="Create">
+
+
+                <div class="form-group">
+                    <div class="input-group">
+
+                        <div class="input-group-addon">Cat_ID</div>
+                        <input asp-for="Cat_ID" type="text" id="Cat_ID" name="Cat_ID" class="form-control">
+                        <div class="input-group-addon">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">Cat_Name</div>
+                        <input asp-for="Cat_Name" type="text" id="Cat_Name" name="Cat_Name" class="form-control">
+                        <div class="input-group-addon">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions form-group">
+                    <button type="submit" class="btn btn-primary btn-sm">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
