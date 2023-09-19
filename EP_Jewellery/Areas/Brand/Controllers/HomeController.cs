@@ -1,59 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using EP_Jewellery.Areas.Admin.Repository;
 using EP_Jewellery.Models;
-using EP_Jewellery.Areas.Admin.Repository;
-using EP_Jewellery.Areas.Admin.Service;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace EP_Jewellery.Areas.Admin.Controllers
+namespace EP_Jewellery.Areas.Brand.Controllers
 {
-    [Area("Admin")]
-
-    public class BrandController : Controller   
+    [Area("Brand")]
+    public class HomeController : Controller
     {
-
         private readonly IBrand _brandService;
 
-        public BrandController(IBrand brand)
+        public HomeController(IBrand brand)
         {
             _brandService = brand;
         }
 
         // GET: Admin/Brand
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var brands = _brandService.GetAll();
+            var brands = await _brandService.GetAllAsync();
             return View(brands);
         }
+
         public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(BrandMst brand)
+        public async Task<IActionResult> Create(BrandMst brand)
         {
             if (ModelState.IsValid)
             {
-                _brandService.Create(brand);
-                return RedirectToAction("Index"); // Chuyển hướng đến trang "Index"
+                await _brandService.CreateAsync(brand);
+                return RedirectToAction("Index", new { area = "Brand" });
             }
             return View(brand);
         }
 
         // Action để hiển thị form chỉnh sửa
-        public IActionResult Edit(string id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var brand = _brandService.GetById(id);
+            var brand = await _brandService.GetByIdAsync(id);
             if (brand == null)
             {
                 return NotFound();
@@ -64,7 +58,7 @@ namespace EP_Jewellery.Areas.Admin.Controllers
 
         // Action để xử lý việc chỉnh sửa
         [HttpPost]
-        public IActionResult Edit(string id, BrandMst brand)
+        public async Task<IActionResult> Edit(string id, BrandMst brand)
         {
             if (id != brand.Brand_ID)
             {
@@ -75,11 +69,11 @@ namespace EP_Jewellery.Areas.Admin.Controllers
             {
                 try
                 {
-                    _brandService.Update(brand);
+                    await _brandService.UpdateAsync(brand);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BrandExists(id))
+                    if (!await BrandExists(id))
                     {
                         return NotFound();
                     }
@@ -94,14 +88,14 @@ namespace EP_Jewellery.Areas.Admin.Controllers
         }
 
         // Action để hiển thị trang xác nhận xóa
-        public IActionResult Delete(string id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var brand = _brandService.GetById(id);
+            var brand = await _brandService.GetByIdAsync(id);
             if (brand == null)
             {
                 return NotFound();
@@ -112,21 +106,21 @@ namespace EP_Jewellery.Areas.Admin.Controllers
 
         // Action để xác nhận và thực hiện xóa
         [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var brand = _brandService.GetById(id);
+            var brand = await _brandService.GetByIdAsync(id);
             if (brand == null)
             {
                 return NotFound();
             }
 
-            _brandService.Delete(id);
+            await _brandService.DeleteAsync(id);
             return RedirectToAction("Index");
         }
 
-        private bool BrandExists(string id)
+        private async Task<bool> BrandExists(string id)
         {
-            return _brandService.GetById(id) != null;
+            return await _brandService.GetByIdAsync(id) != null;
         }
     }
 }

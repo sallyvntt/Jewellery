@@ -13,36 +13,37 @@ namespace EP_Jewellery.Areas.Admin.Service
             _context = context;
         }
 
-        public BrandMst GetById(string id)
+        public async Task<BrandMst> GetByIdAsync(string id)
         {
-            return _context.BrandMsts.Find(id);
+            return await _context.BrandMsts.FindAsync(id);
         }
 
-        public IEnumerable<BrandMst> GetAll()
+        public async Task<IEnumerable<BrandMst>> GetAllAsync()
         {
-            return _context.BrandMsts.ToList();
+            return await _context.BrandMsts.ToListAsync();
         }
 
-        public void Create(BrandMst brand)
+        public async Task CreateAsync(BrandMst brand)
         {
             _context.BrandMsts.Add(brand);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public void Update(BrandMst brand)
+        public async Task UpdateAsync(BrandMst brand)
         {
             _context.BrandMsts.Update(brand);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public void Delete(string id)
+        public async Task DeleteAsync(string id)
         {
-            var brand = _context.BrandMsts.Find(id);
+            var brand = await _context.BrandMsts.FindAsync(id);
             if (brand != null)
             {
                 _context.BrandMsts.Remove(brand);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
         }
     }
+
 }

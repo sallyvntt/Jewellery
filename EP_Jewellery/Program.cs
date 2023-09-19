@@ -39,28 +39,32 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
-        name: "area",
-        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
-        defaults: "action=Index"
-
+        name: "admin",
+        pattern: "admin/admin/{controller=Home}/{action}/{id?}",
+        defaults: new { area = "Admin", action = "Index" }
     );
-   
 
+    endpoints.MapControllerRoute(
+        name: "brand",
+        pattern: "admin/brand/{action=Index}/{id?}", // Xóa controller=Home
+        defaults: new { area = "Brand", controller = "Home", action = "Index" } // Đặt controller = "Home"
+    );
 
     endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}"
     );
 
-    endpoints.MapDefaultControllerRoute();
-
+    endpoints.MapRazorPages();
 });
 
-app.MapRazorPages();
+
+
+
+
 app.UseCors("AllowAll");
 app.MapControllers();
 app.UseRouting();

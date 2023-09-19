@@ -2,7 +2,7 @@
 
 namespace EP_Jewellery.Areas.Admin.Controllers
 {
-    public class AdminController : Controller
+    public class HomeController : Controller
     {
         [Area("Admin")]
 
