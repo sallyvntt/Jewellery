@@ -28,7 +28,6 @@ namespace EP_Jewellery.Models
         [MaxLength(50)]
         public string DimImg { get; set; } // Image Of Diamond
 
-        // Một danh sách các kim cương có quan hệ với DimInfoMst nếu có
-        public List<DimMst> DimDiamonds { get; set; }
+        
     }
 }

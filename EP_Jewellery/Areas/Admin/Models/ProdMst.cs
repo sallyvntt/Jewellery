@@ -12,7 +12,6 @@ namespace EP_Jewellery.Models
         [MaxLength(50)]
         public string Prod_Type { get; set; } // Type Of Product
 
-        // Một danh sách các sản phẩm có quan hệ với ProdMst nếu có
-        public List<ItemMst> Items { get; set; }
+       
     }
 }

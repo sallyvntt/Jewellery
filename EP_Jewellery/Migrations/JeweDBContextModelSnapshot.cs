@@ -137,9 +137,6 @@ namespace EP_Jewellery.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DimMst_ID"));
 
-                    b.Property<string>("DimInfoMstDimID")
-                        .HasColumnType("nvarchar(10)");
-
                     b.Property<string>("DimQlty_ID")
                         .IsRequired()
                         .HasColumnType("nvarchar(10)");
@@ -171,8 +168,6 @@ namespace EP_Jewellery.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.HasKey("DimMst_ID");
-
-                    b.HasIndex("DimInfoMstDimID");
 
                     b.HasIndex("DimQlty_ID");
 
@@ -236,29 +231,17 @@ namespace EP_Jewellery.Migrations
                     b.Property<string>("Style_Code")
                         .HasColumnType("varchar(50)");
 
-                    b.Property<string>("BrandMstBrand_ID")
-                        .HasColumnType("nvarchar(10)");
-
                     b.Property<string>("Brand_ID")
                         .IsRequired()
                         .HasColumnType("nchar(10)");
-
-                    b.Property<string>("CatMstCat_ID")
-                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Cat_ID")
                         .IsRequired()
                         .HasColumnType("nchar(10)");
 
-                    b.Property<string>("CertifyMstCertify_ID")
-                        .HasColumnType("nvarchar(10)");
-
                     b.Property<string>("Certify_ID")
                         .IsRequired()
                         .HasColumnType("nchar(10)");
-
-                    b.Property<string>("GoldKrtMstGoldType_ID")
-                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("GoldType_ID")
                         .IsRequired()
@@ -287,9 +270,6 @@ namespace EP_Jewellery.Migrations
 
                     b.Property<decimal>("Pairs")
                         .HasColumnType("numeric(3,0)");
-
-                    b.Property<string>("ProdMstProd_ID")
-                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Prod_ID")
                         .IsRequired()
@@ -322,23 +302,13 @@ namespace EP_Jewellery.Migrations
 
                     b.HasKey("Style_Code");
 
-                    b.HasIndex("BrandMstBrand_ID");
-
                     b.HasIndex("Brand_ID");
-
-                    b.HasIndex("CatMstCat_ID");
 
                     b.HasIndex("Cat_ID");
 
-                    b.HasIndex("CertifyMstCertify_ID");
-
                     b.HasIndex("Certify_ID");
 
-                    b.HasIndex("GoldKrtMstGoldType_ID");
-
                     b.HasIndex("GoldType_ID");
-
-                    b.HasIndex("ProdMstProd_ID");
 
                     b.HasIndex("Prod_ID");
 
@@ -479,18 +449,14 @@ namespace EP_Jewellery.Migrations
 
             modelBuilder.Entity("EP_Jewellery.Models.DimMst", b =>
                 {
-                    b.HasOne("EP_Jewellery.Models.DimInfoMst", null)
-                        .WithMany("DimDiamonds")
-                        .HasForeignKey("DimInfoMstDimID");
-
                     b.HasOne("EP_Jewellery.Models.DimQltyMst", "DiamondQuality")
-                        .WithMany("DimDiamonds")
+                        .WithMany()
                         .HasForeignKey("DimQlty_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EP_Jewellery.Models.DimQltySubMst", "DimQualitySubType")
-                        .WithMany("DimDiamonds")
+                        .WithMany()
                         .HasForeignKey("DimSubType_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -510,19 +476,11 @@ namespace EP_Jewellery.Migrations
 
             modelBuilder.Entity("EP_Jewellery.Models.ItemMst", b =>
                 {
-                    b.HasOne("EP_Jewellery.Models.BrandMst", null)
-                        .WithMany("Items")
-                        .HasForeignKey("BrandMstBrand_ID");
-
                     b.HasOne("EP_Jewellery.Models.BrandMst", "Brand")
                         .WithMany()
                         .HasForeignKey("Brand_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("EP_Jewellery.Models.CatMst", null)
-                        .WithMany("Items")
-                        .HasForeignKey("CatMstCat_ID");
 
                     b.HasOne("EP_Jewellery.Models.CatMst", "Category")
                         .WithMany()
@@ -530,29 +488,17 @@ namespace EP_Jewellery.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.CertifyMst", null)
-                        .WithMany("Items")
-                        .HasForeignKey("CertifyMstCertify_ID");
-
                     b.HasOne("EP_Jewellery.Models.CertifyMst", "Certify")
                         .WithMany()
                         .HasForeignKey("Certify_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.GoldKrtMst", null)
-                        .WithMany("Items")
-                        .HasForeignKey("GoldKrtMstGoldType_ID");
-
                     b.HasOne("EP_Jewellery.Models.GoldKrtMst", "GoldCarat")
                         .WithMany()
                         .HasForeignKey("GoldType_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("EP_Jewellery.Models.ProdMst", null)
-                        .WithMany("Items")
-                        .HasForeignKey("ProdMstProd_ID");
 
                     b.HasOne("EP_Jewellery.Models.ProdMst", "Product")
                         .WithMany()
@@ -574,7 +520,7 @@ namespace EP_Jewellery.Migrations
             modelBuilder.Entity("EP_Jewellery.Models.StoneMst", b =>
                 {
                     b.HasOne("EP_Jewellery.Models.StoneQltyMst", "StoneQuality")
-                        .WithMany("Stones")
+                        .WithMany()
                         .HasForeignKey("StoneQlty_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -590,54 +536,9 @@ namespace EP_Jewellery.Migrations
                     b.Navigation("StoneQuality");
                 });
 
-            modelBuilder.Entity("EP_Jewellery.Models.BrandMst", b =>
-                {
-                    b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.CatMst", b =>
-                {
-                    b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.CertifyMst", b =>
-                {
-                    b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.DimInfoMst", b =>
-                {
-                    b.Navigation("DimDiamonds");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.DimQltyMst", b =>
-                {
-                    b.Navigation("DimDiamonds");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.DimQltySubMst", b =>
-                {
-                    b.Navigation("DimDiamonds");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.GoldKrtMst", b =>
-                {
-                    b.Navigation("Items");
-                });
-
             modelBuilder.Entity("EP_Jewellery.Models.ItemMst", b =>
                 {
                     b.Navigation("Dimensions");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.ProdMst", b =>
-                {
-                    b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("EP_Jewellery.Models.StoneQltyMst", b =>
-                {
-                    b.Navigation("Stones");
                 });
 #pragma warning restore 612, 618
         }
