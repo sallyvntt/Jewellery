@@ -1,0 +1,42 @@
+﻿@model EP_Jewellery.Models.BrandMst
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">Example Form</div>
+        <div class="card-body card-block">
+            <form asp-action="Create">
+
+
+                <div class="form-group">
+                    <div class="input-group">
+
+                        <div class="input-group-addon">Brand_ID</div>
+                        <input asp-for="Brand_ID" type="text" id="Brand_ID" name="Brand_ID" class="form-control">
+                        <div class="input-group-addon">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">Brand_Type</div>
+                        <input asp-for="Brand_Type" type="text" id="Brand_Type" name="Brand_Type" class="form-control">
+                        <div class="input-group-addon">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-actions form-group">
+                    <button type="submit" class="btn btn-primary btn-sm">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

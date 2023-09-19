@@ -1,8 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EP_Jewellery.Areas.Admin.Repository;
+using EP_Jewellery.Areas.Admin.Service;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IBrand, BrandService>();
+builder.Services.AddScoped<ICat, CatService>();
+
 
 builder.Services.AddDbContext<JeweDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("String")));
 builder.Services.AddControllersWithViews();
@@ -36,18 +41,48 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
 
-// Cấu hình Route cho Areas
-app.MapControllerRoute(
-    name: "admin",
-    pattern: "{area}/{controller}/{action=Index}/{id?}"
-);
+    endpoints.MapAreaControllerRoute(
+        name: "admin",
+        areaName: "Admin",
+        pattern: "admin/{controller=Admin}/{action=Index}/{id?}"
+    );
+    // Thêm route mặc định cho "/admin" và chuyển hướng đến "admin/admin/"
+    endpoints.MapControllerRoute(
+        name: "admin-default",
+        pattern: "admin",
+        defaults: new { area = "Admin", controller = "Home", action = "Index" }
+    );
 
-app.MapRazorPages();
+
+    // Route cho khu vực "Brand"
+    endpoints.MapAreaControllerRoute(
+        name: "brand",
+        areaName: "Brand",
+        pattern: "admin/brand/{controller=Brand}/{action=Index}/{id?}"
+    );// Route cho khu vực "Cates"
+    endpoints.MapAreaControllerRoute(
+        name: "cate",
+        areaName: "Cate",
+        pattern: "admin/cate/{controller=Cate}/{action=Index}/{id?}"
+    );
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+
+    endpoints.MapRazorPages();
+});
+
+
+
+
+
 app.UseCors("AllowAll");
-
+app.MapControllers();
+app.UseRouting();
 
 app.Run();

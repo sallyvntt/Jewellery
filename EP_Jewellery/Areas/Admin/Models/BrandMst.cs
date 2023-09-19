@@ -13,6 +13,5 @@ namespace EP_Jewellery.Models
         public string Brand_Type { get; set; } // Type Of Brand (Asmi, D’damas, etc…)
 
         // Một danh sách các sản phẩm có quan hệ với BrandMst nếu có
-        public List<ItemMst> Items { get; set; }
     }
 }

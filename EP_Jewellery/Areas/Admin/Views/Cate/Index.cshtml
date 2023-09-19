@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EP_Jewellery.Models.CatMst>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-6">
+    <!-- TOP CAMPAIGN-->
+    <div class="top-campaign">
+        <h3 class="title-3 m-b-30">Category List</h3>
+        <div class="table-responsive">
+            <table class="table table-top-campaign">
+                <thead>
+                    <tr>
+                        <th>  @Html.DisplayNameFor(model => model.Cat_ID)</th>
+                        <th>  @Html.DisplayNameFor(model => model.Cat_Name)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td> @Html.DisplayFor(modelItem => item.Cat_ID)</td>
+                            <td> @Html.DisplayFor(modelItem => item.Cat_Name)</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Cat_ID">Edit</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Cat_ID">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--  END TOP CAMPAIGN-->
+</div>
