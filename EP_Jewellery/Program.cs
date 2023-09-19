@@ -39,15 +39,28 @@ app.UseRouting();
 app.UseSession();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
 // Cấu hình Route cho Areas
-app.MapControllerRoute(
-    name: "admin",
-    pattern: "{area}/{controller=Admin}/{action=Index}/{id?}"
-);
+//app.MapControllerRoute(
+//   name: "Admin",
+//   pattern: "{area:exists}/{controller}/{action}/{id?}"
+//);
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "area",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
+        defaults: "action=Index"
+
+    );
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+
+    endpoints.MapDefaultControllerRoute();
+});
 
 app.MapRazorPages();
 app.UseCors("AllowAll");

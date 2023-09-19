@@ -160,14 +160,17 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" asp-action="Index" asp-controller="Admin">
+                            <a class="js-arrow" asp-area="Admin" asp-action="Index" asp-controller="Admin">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
                         <li>
-                            <a asp-action="Account" asp-controller="Admin">
+                            @* <a asp-action="Account" asp-controller="Account">
                                 <i class="fas fa-chart-bar"></i>Customers
-                                @Html.ActionLink("Account", "Account", "Admin", null)
+                                
+                            </a> *@
+                            <a asp-area="Admin" asp-controller="Account" asp-action="Index">
+                                Customer
                             </a>
                         </li>
                         <li>
@@ -176,7 +179,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="form.html">
+                            <a href="form.html" asp>
                                 <i class="far fa-check-square"></i>Forms
                             </a>
                         </li>

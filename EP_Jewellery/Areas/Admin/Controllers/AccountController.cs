@@ -7,7 +7,9 @@ namespace EP_Jewellery.Areas.Admin.Controllers
     {
         private readonly DatabaseContext db;
         public AccountController(DatabaseContext db) { this.db = db; }
-        public ActionResult Account()
+
+        [Area("Admin")]
+        public ActionResult Index()
         {
             var model = db.User.ToList();
             return View(model);

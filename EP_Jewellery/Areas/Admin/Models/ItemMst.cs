@@ -17,7 +17,7 @@ namespace EP_Jewellery.Models
         public int Pairs { get; set; }
 
         [Required]
-        [Column(TypeName = "nchar(10)")]
+        [MaxLength(10)]
         public string Brand_ID { get; set; }
 
         [Required]
@@ -25,7 +25,7 @@ namespace EP_Jewellery.Models
         public int Quantity { get; set; }
 
         [Required]
-        [Column(TypeName = "nchar(10)")]
+        [MaxLength(10)]
         public string Cat_ID { get; set; }
 
         [Required]
@@ -33,15 +33,15 @@ namespace EP_Jewellery.Models
         public string Prod_Quality { get; set; }
 
         [Required]
-        [Column(TypeName = "nchar(10)")]
+        [MaxLength(10)]
         public string Certify_ID { get; set; }
 
         [Required]
-        [Column(TypeName = "nchar(10)")]
+        [MaxLength(10)]
         public string Prod_ID { get; set; }
 
         [Required]
-        [Column(TypeName = "nchar(10)")]
+        [MaxLength(10)]
         public string GoldType_ID { get; set; }
 
         [Required]

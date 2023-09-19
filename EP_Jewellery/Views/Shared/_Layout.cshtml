@@ -52,7 +52,7 @@
                                         <li><a asp-action="Logout"><span>Logout</span></a></li>
                                         @if (@ViewBag.Admin == "string")
                                         {
-                                            <li><a asp-action="Index" asp-controller="Admin"><span class="icon icon-person">AdminPage</span></a></li>
+                                            <li><a asp-area="Admin" asp-action="Index" asp-controller="Admin"><span class="icon icon-person">AdminPage</span></a></li>
 
                                         }
                                         else

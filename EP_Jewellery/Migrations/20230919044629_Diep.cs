@@ -39,7 +39,7 @@ namespace EP_Jewellery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CardMsts",
+                name: "CatMsts",
                 columns: table => new
                 {
                     Cat_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
@@ -47,7 +47,7 @@ namespace EP_Jewellery.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CardMsts", x => x.Cat_ID);
+                    table.PrimaryKey("PK_CatMsts", x => x.Cat_ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -63,7 +63,7 @@ namespace EP_Jewellery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DimInfoMsts",
+                name: "DimInfos",
                 columns: table => new
                 {
                     DimID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
@@ -75,7 +75,19 @@ namespace EP_Jewellery.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DimInfoMsts", x => x.DimID);
+                    table.PrimaryKey("PK_DimInfos", x => x.DimID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DimQltyMsts",
+                columns: table => new
+                {
+                    DimQlty_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
+                    DimQlty = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DimQltyMsts", x => x.DimQlty_ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -91,18 +103,6 @@ namespace EP_Jewellery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DimQtyMsts",
-                columns: table => new
-                {
-                    DimQlty_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    DimQlty = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DimQtyMsts", x => x.DimQlty_ID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "GoldKrtMsts",
                 columns: table => new
                 {
@@ -115,7 +115,7 @@ namespace EP_Jewellery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "JewelTypeMsts",
+                name: "JewelTypes",
                 columns: table => new
                 {
                     ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
@@ -123,7 +123,7 @@ namespace EP_Jewellery.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_JewelTypeMsts", x => x.ID);
+                    table.PrimaryKey("PK_JewelTypes", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -174,58 +174,91 @@ namespace EP_Jewellery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ItemMsts",
+                name: "Items",
                 columns: table => new
                 {
-                    Style_Code = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Style_Code = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Pairs = table.Column<decimal>(type: "numeric(3,0)", nullable: false),
                     Brand_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    Prod_Quality = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Quantity = table.Column<decimal>(type: "numeric(18,0)", nullable: false),
+                    Cat_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
+                    Prod_Quality = table.Column<string>(type: "varchar(50)", nullable: false),
                     Certify_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     Prod_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     GoldType_ID = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    Gold_Wt = table.Column<decimal>(type: "decimal(10,3)", nullable: false),
-                    Stone_Wt = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Net_Gold = table.Column<decimal>(type: "decimal(10,3)", nullable: false),
-                    Wstg_Per = table.Column<decimal>(type: "decimal(10,3)", nullable: false),
-                    Wstg = table.Column<decimal>(type: "decimal(10,3)", nullable: false),
-                    Tot_Gross_Wt = table.Column<decimal>(type: "decimal(10,3)", nullable: false),
-                    Gold_Rate = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Gold_Amt = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Gold_Making = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Stone_Making = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Other_Making = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    Tot_Making = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    MRP = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    CardMstCat_ID = table.Column<string>(type: "nvarchar(10)", nullable: true)
+                    Gold_Wt = table.Column<decimal>(type: "numeric(10,3)", nullable: false),
+                    Stone_Wt = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Net_Gold = table.Column<decimal>(type: "numeric(10,3)", nullable: false),
+                    Wstg_Per = table.Column<decimal>(type: "numeric(10,3)", nullable: false),
+                    Wstg = table.Column<decimal>(type: "numeric(10,3)", nullable: false),
+                    Tot_Gross_Wt = table.Column<decimal>(type: "numeric(10,3)", nullable: false),
+                    Gold_Rate = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Gold_Amt = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Gold_Making = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Stone_Making = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Other_Making = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    Tot_Making = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    MRP = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
+                    BrandMstBrand_ID = table.Column<string>(type: "nvarchar(10)", nullable: true),
+                    CatMstCat_ID = table.Column<string>(type: "nvarchar(10)", nullable: true),
+                    CertifyMstCertify_ID = table.Column<string>(type: "nvarchar(10)", nullable: true),
+                    GoldKrtMstGoldType_ID = table.Column<string>(type: "nvarchar(10)", nullable: true),
+                    ProdMstProd_ID = table.Column<string>(type: "nvarchar(10)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ItemMsts", x => x.Style_Code);
+                    table.PrimaryKey("PK_Items", x => x.Style_Code);
                     table.ForeignKey(
-                        name: "FK_ItemMsts_BrandMsts_Brand_ID",
+                        name: "FK_Items_BrandMsts_BrandMstBrand_ID",
+                        column: x => x.BrandMstBrand_ID,
+                        principalTable: "BrandMsts",
+                        principalColumn: "Brand_ID");
+                    table.ForeignKey(
+                        name: "FK_Items_BrandMsts_Brand_ID",
                         column: x => x.Brand_ID,
                         principalTable: "BrandMsts",
                         principalColumn: "Brand_ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ItemMsts_CardMsts_CardMstCat_ID",
-                        column: x => x.CardMstCat_ID,
-                        principalTable: "CardMsts",
+                        name: "FK_Items_CatMsts_CatMstCat_ID",
+                        column: x => x.CatMstCat_ID,
+                        principalTable: "CatMsts",
                         principalColumn: "Cat_ID");
                     table.ForeignKey(
-                        name: "FK_ItemMsts_CertifyMsts_Certify_ID",
+                        name: "FK_Items_CatMsts_Cat_ID",
+                        column: x => x.Cat_ID,
+                        principalTable: "CatMsts",
+                        principalColumn: "Cat_ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Items_CertifyMsts_CertifyMstCertify_ID",
+                        column: x => x.CertifyMstCertify_ID,
+                        principalTable: "CertifyMsts",
+                        principalColumn: "Certify_ID");
+                    table.ForeignKey(
+                        name: "FK_Items_CertifyMsts_Certify_ID",
                         column: x => x.Certify_ID,
                         principalTable: "CertifyMsts",
                         principalColumn: "Certify_ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ItemMsts_GoldKrtMsts_GoldType_ID",
+                        name: "FK_Items_GoldKrtMsts_GoldKrtMstGoldType_ID",
+                        column: x => x.GoldKrtMstGoldType_ID,
+                        principalTable: "GoldKrtMsts",
+                        principalColumn: "GoldType_ID");
+                    table.ForeignKey(
+                        name: "FK_Items_GoldKrtMsts_GoldType_ID",
                         column: x => x.GoldType_ID,
                         principalTable: "GoldKrtMsts",
                         principalColumn: "GoldType_ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ItemMsts_ProdMsts_Prod_ID",
+                        name: "FK_Items_ProdMsts_ProdMstProd_ID",
+                        column: x => x.ProdMstProd_ID,
+                        principalTable: "ProdMsts",
+                        principalColumn: "Prod_ID");
+                    table.ForeignKey(
+                        name: "FK_Items_ProdMsts_Prod_ID",
                         column: x => x.Prod_ID,
                         principalTable: "ProdMsts",
                         principalColumn: "Prod_ID",
@@ -238,7 +271,7 @@ namespace EP_Jewellery.Migrations
                 {
                     DimMst_ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Style_Code = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    Style_Code = table.Column<string>(type: "varchar(50)", nullable: false),
                     DimQlty_ID = table.Column<string>(type: "nvarchar(10)", nullable: false),
                     DimSubType_ID = table.Column<string>(type: "nvarchar(10)", nullable: false),
                     Dim_Crt = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
@@ -253,10 +286,16 @@ namespace EP_Jewellery.Migrations
                 {
                     table.PrimaryKey("PK_DimMsts", x => x.DimMst_ID);
                     table.ForeignKey(
-                        name: "FK_DimMsts_DimInfoMsts_DimInfoMstDimID",
+                        name: "FK_DimMsts_DimInfos_DimInfoMstDimID",
                         column: x => x.DimInfoMstDimID,
-                        principalTable: "DimInfoMsts",
+                        principalTable: "DimInfos",
                         principalColumn: "DimID");
+                    table.ForeignKey(
+                        name: "FK_DimMsts_DimQltyMsts_DimQlty_ID",
+                        column: x => x.DimQlty_ID,
+                        principalTable: "DimQltyMsts",
+                        principalColumn: "DimQlty_ID",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_DimMsts_DimQltySubMsts_DimSubType_ID",
                         column: x => x.DimSubType_ID,
@@ -264,15 +303,9 @@ namespace EP_Jewellery.Migrations
                         principalColumn: "DimSubType_ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_DimMsts_DimQtyMsts_DimQlty_ID",
-                        column: x => x.DimQlty_ID,
-                        principalTable: "DimQtyMsts",
-                        principalColumn: "DimQlty_ID",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_DimMsts_ItemMsts_Style_Code",
+                        name: "FK_DimMsts_Items_Style_Code",
                         column: x => x.Style_Code,
-                        principalTable: "ItemMsts",
+                        principalTable: "Items",
                         principalColumn: "Style_Code",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -282,7 +315,7 @@ namespace EP_Jewellery.Migrations
                 columns: table => new
                 {
                     StoneMst_ID = table.Column<int>(type: "int", nullable: false),
-                    Style_Code = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Style_Code = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     StoneQlty_ID = table.Column<string>(type: "nvarchar(10)", nullable: false),
                     Stone_Gm = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
                     Stone_Pcs = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
@@ -294,9 +327,9 @@ namespace EP_Jewellery.Migrations
                 {
                     table.PrimaryKey("PK_StoneMsts", x => x.StoneMst_ID);
                     table.ForeignKey(
-                        name: "FK_StoneMsts_ItemMsts_Style_Code",
+                        name: "FK_StoneMsts_Items_Style_Code",
                         column: x => x.Style_Code,
-                        principalTable: "ItemMsts",
+                        principalTable: "Items",
                         principalColumn: "Style_Code",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -328,29 +361,54 @@ namespace EP_Jewellery.Migrations
                 column: "Style_Code");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemMsts_Brand_ID",
-                table: "ItemMsts",
+                name: "IX_Items_Brand_ID",
+                table: "Items",
                 column: "Brand_ID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemMsts_CardMstCat_ID",
-                table: "ItemMsts",
-                column: "CardMstCat_ID");
+                name: "IX_Items_BrandMstBrand_ID",
+                table: "Items",
+                column: "BrandMstBrand_ID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemMsts_Certify_ID",
-                table: "ItemMsts",
+                name: "IX_Items_Cat_ID",
+                table: "Items",
+                column: "Cat_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_CatMstCat_ID",
+                table: "Items",
+                column: "CatMstCat_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_Certify_ID",
+                table: "Items",
                 column: "Certify_ID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemMsts_GoldType_ID",
-                table: "ItemMsts",
+                name: "IX_Items_CertifyMstCertify_ID",
+                table: "Items",
+                column: "CertifyMstCertify_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_GoldKrtMstGoldType_ID",
+                table: "Items",
+                column: "GoldKrtMstGoldType_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_GoldType_ID",
+                table: "Items",
                 column: "GoldType_ID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemMsts_Prod_ID",
-                table: "ItemMsts",
+                name: "IX_Items_Prod_ID",
+                table: "Items",
                 column: "Prod_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Items_ProdMstProd_ID",
+                table: "Items",
+                column: "ProdMstProd_ID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_StoneMsts_StoneQlty_ID",
@@ -373,7 +431,7 @@ namespace EP_Jewellery.Migrations
                 name: "DimMsts");
 
             migrationBuilder.DropTable(
-                name: "JewelTypeMsts");
+                name: "JewelTypes");
 
             migrationBuilder.DropTable(
                 name: "StoneMsts");
@@ -382,16 +440,16 @@ namespace EP_Jewellery.Migrations
                 name: "UserRegMst");
 
             migrationBuilder.DropTable(
-                name: "DimInfoMsts");
+                name: "DimInfos");
+
+            migrationBuilder.DropTable(
+                name: "DimQltyMsts");
 
             migrationBuilder.DropTable(
                 name: "DimQltySubMsts");
 
             migrationBuilder.DropTable(
-                name: "DimQtyMsts");
-
-            migrationBuilder.DropTable(
-                name: "ItemMsts");
+                name: "Items");
 
             migrationBuilder.DropTable(
                 name: "StoneQltyMsts");
@@ -400,7 +458,7 @@ namespace EP_Jewellery.Migrations
                 name: "BrandMsts");
 
             migrationBuilder.DropTable(
-                name: "CardMsts");
+                name: "CatMsts");
 
             migrationBuilder.DropTable(
                 name: "CertifyMsts");

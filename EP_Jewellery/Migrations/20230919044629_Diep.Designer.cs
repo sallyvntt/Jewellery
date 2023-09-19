@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EP_Jewellery.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230918050908_Diep")]
+    [Migration("20230919044629_Diep")]
     partial class Diep
     {
         /// <inheritdoc />
@@ -65,7 +65,7 @@ namespace EP_Jewellery.Migrations
                     b.ToTable("BrandMsts");
                 });
 
-            modelBuilder.Entity("EP_Jewellery.Models.CardMst", b =>
+            modelBuilder.Entity("EP_Jewellery.Models.CatMst", b =>
                 {
                     b.Property<string>("Cat_ID")
                         .HasMaxLength(10)
@@ -78,7 +78,7 @@ namespace EP_Jewellery.Migrations
 
                     b.HasKey("Cat_ID");
 
-                    b.ToTable("CardMsts");
+                    b.ToTable("CatMsts");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.CertifyMst", b =>
@@ -130,7 +130,7 @@ namespace EP_Jewellery.Migrations
 
                     b.HasKey("DimID");
 
-                    b.ToTable("DimInfoMsts");
+                    b.ToTable("DimInfos");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.DimMst", b =>
@@ -172,7 +172,7 @@ namespace EP_Jewellery.Migrations
 
                     b.Property<string>("Style_Code")
                         .IsRequired()
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("DimMst_ID");
 
@@ -200,7 +200,7 @@ namespace EP_Jewellery.Migrations
 
                     b.HasKey("DimQlty_ID");
 
-                    b.ToTable("DimQtyMsts");
+                    b.ToTable("DimQltyMsts");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.DimQltySubMst", b =>
@@ -238,20 +238,33 @@ namespace EP_Jewellery.Migrations
             modelBuilder.Entity("EP_Jewellery.Models.ItemMst", b =>
                 {
                     b.Property<string>("Style_Code")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<string>("BrandMstBrand_ID")
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Brand_ID")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
-                    b.Property<string>("CardMstCat_ID")
+                    b.Property<string>("CatMstCat_ID")
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Cat_ID")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("CertifyMstCertify_ID")
                         .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Certify_ID")
                         .IsRequired()
                         .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("GoldKrtMstGoldType_ID")
                         .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("GoldType_ID")
@@ -260,25 +273,31 @@ namespace EP_Jewellery.Migrations
                         .HasColumnType("nvarchar(10)");
 
                     b.Property<decimal>("Gold_Amt")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Gold_Making")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Gold_Rate")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Gold_Wt")
-                        .HasColumnType("decimal(10,3)");
+                        .HasColumnType("numeric(10,3)");
 
                     b.Property<decimal>("MRP")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Net_Gold")
-                        .HasColumnType("decimal(10,3)");
+                        .HasColumnType("numeric(10,3)");
 
                     b.Property<decimal>("Other_Making")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
+
+                    b.Property<decimal>("Pairs")
+                        .HasColumnType("numeric(3,0)");
+
+                    b.Property<string>("ProdMstProd_ID")
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Prod_ID")
                         .IsRequired()
@@ -287,40 +306,52 @@ namespace EP_Jewellery.Migrations
 
                     b.Property<string>("Prod_Quality")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<decimal>("Quantity")
+                        .HasColumnType("numeric(18,0)");
 
                     b.Property<decimal>("Stone_Making")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Stone_Wt")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Tot_Gross_Wt")
-                        .HasColumnType("decimal(10,3)");
+                        .HasColumnType("numeric(10,3)");
 
                     b.Property<decimal>("Tot_Making")
-                        .HasColumnType("decimal(10,2)");
+                        .HasColumnType("numeric(10,2)");
 
                     b.Property<decimal>("Wstg")
-                        .HasColumnType("decimal(10,3)");
+                        .HasColumnType("numeric(10,3)");
 
                     b.Property<decimal>("Wstg_Per")
-                        .HasColumnType("decimal(10,3)");
+                        .HasColumnType("numeric(10,3)");
 
                     b.HasKey("Style_Code");
 
+                    b.HasIndex("BrandMstBrand_ID");
+
                     b.HasIndex("Brand_ID");
 
-                    b.HasIndex("CardMstCat_ID");
+                    b.HasIndex("CatMstCat_ID");
+
+                    b.HasIndex("Cat_ID");
+
+                    b.HasIndex("CertifyMstCertify_ID");
 
                     b.HasIndex("Certify_ID");
 
+                    b.HasIndex("GoldKrtMstGoldType_ID");
+
                     b.HasIndex("GoldType_ID");
+
+                    b.HasIndex("ProdMstProd_ID");
 
                     b.HasIndex("Prod_ID");
 
-                    b.ToTable("ItemMsts");
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.JewelTypeMst", b =>
@@ -336,7 +367,7 @@ namespace EP_Jewellery.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("JewelTypeMsts");
+                    b.ToTable("JewelTypes");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.ProdMst", b =>
@@ -382,7 +413,7 @@ namespace EP_Jewellery.Migrations
                     b.Property<string>("Style_Code")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("StoneMst_ID");
 
@@ -473,8 +504,8 @@ namespace EP_Jewellery.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.ItemMst", "Stone")
-                        .WithMany()
+                    b.HasOne("EP_Jewellery.Models.ItemMst", "Item")
+                        .WithMany("Dimensions")
                         .HasForeignKey("Style_Code")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -483,46 +514,70 @@ namespace EP_Jewellery.Migrations
 
                     b.Navigation("DimQualitySubType");
 
-                    b.Navigation("Stone");
+                    b.Navigation("Item");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.ItemMst", b =>
                 {
-                    b.HasOne("EP_Jewellery.Models.BrandMst", "Brand")
+                    b.HasOne("EP_Jewellery.Models.BrandMst", null)
                         .WithMany("Items")
+                        .HasForeignKey("BrandMstBrand_ID");
+
+                    b.HasOne("EP_Jewellery.Models.BrandMst", "Brand")
+                        .WithMany()
                         .HasForeignKey("Brand_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.CardMst", null)
+                    b.HasOne("EP_Jewellery.Models.CatMst", null)
                         .WithMany("Items")
-                        .HasForeignKey("CardMstCat_ID");
+                        .HasForeignKey("CatMstCat_ID");
+
+                    b.HasOne("EP_Jewellery.Models.CatMst", "Category")
+                        .WithMany()
+                        .HasForeignKey("Cat_ID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EP_Jewellery.Models.CertifyMst", null)
+                        .WithMany("Items")
+                        .HasForeignKey("CertifyMstCertify_ID");
 
                     b.HasOne("EP_Jewellery.Models.CertifyMst", "Certify")
-                        .WithMany("Items")
+                        .WithMany()
                         .HasForeignKey("Certify_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.GoldKrtMst", "GoldKrt")
+                    b.HasOne("EP_Jewellery.Models.GoldKrtMst", null)
                         .WithMany("Items")
+                        .HasForeignKey("GoldKrtMstGoldType_ID");
+
+                    b.HasOne("EP_Jewellery.Models.GoldKrtMst", "GoldCarat")
+                        .WithMany()
                         .HasForeignKey("GoldType_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EP_Jewellery.Models.ProdMst", "Prod")
+                    b.HasOne("EP_Jewellery.Models.ProdMst", null)
                         .WithMany("Items")
+                        .HasForeignKey("ProdMstProd_ID");
+
+                    b.HasOne("EP_Jewellery.Models.ProdMst", "Product")
+                        .WithMany()
                         .HasForeignKey("Prod_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Brand");
 
+                    b.Navigation("Category");
+
                     b.Navigation("Certify");
 
-                    b.Navigation("GoldKrt");
+                    b.Navigation("GoldCarat");
 
-                    b.Navigation("Prod");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.StoneMst", b =>
@@ -534,7 +589,7 @@ namespace EP_Jewellery.Migrations
                         .IsRequired();
 
                     b.HasOne("EP_Jewellery.Models.ItemMst", "Item")
-                        .WithMany("Stones")
+                        .WithMany()
                         .HasForeignKey("Style_Code")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -549,7 +604,7 @@ namespace EP_Jewellery.Migrations
                     b.Navigation("Items");
                 });
 
-            modelBuilder.Entity("EP_Jewellery.Models.CardMst", b =>
+            modelBuilder.Entity("EP_Jewellery.Models.CatMst", b =>
                 {
                     b.Navigation("Items");
                 });
@@ -581,7 +636,7 @@ namespace EP_Jewellery.Migrations
 
             modelBuilder.Entity("EP_Jewellery.Models.ItemMst", b =>
                 {
-                    b.Navigation("Stones");
+                    b.Navigation("Dimensions");
                 });
 
             modelBuilder.Entity("EP_Jewellery.Models.ProdMst", b =>
