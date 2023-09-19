@@ -12,7 +12,6 @@ using EP_Jewellery.Areas.Admin.Service;
 namespace EP_Jewellery.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Route("Admin/[controller]/[action]")]
 
     public class BrandController : Controller   
     {
