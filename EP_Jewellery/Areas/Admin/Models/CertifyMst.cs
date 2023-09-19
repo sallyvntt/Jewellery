@@ -12,7 +12,6 @@ namespace EP_Jewellery.Models
         [MaxLength(50)]
         public string Certify_Type { get; set; } // Name Of Certification (918, 920, etc…)
 
-        // Một danh sách các sản phẩm có quan hệ với CertifyMst nếu có
-        public List<ItemMst> Items { get; set; }
+       
     }
 }

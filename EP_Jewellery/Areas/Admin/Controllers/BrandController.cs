@@ -5,12 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EP_Jewellery.Areas.Brand.Controllers
 {
-    [Area("Brand")]
-    public class HomeController : Controller
+    public class BrandController : Controller
     {
         private readonly IBrand _brandService;
 
-        public HomeController(IBrand brand)
+        public BrandController(IBrand brand)
         {
             _brandService = brand;
         }
@@ -34,7 +33,7 @@ namespace EP_Jewellery.Areas.Brand.Controllers
             if (ModelState.IsValid)
             {
                 await _brandService.CreateAsync(brand);
-                return RedirectToAction("Index", new { area = "Brand" });
+                return RedirectToAction("Index"); // Chuyển hướng đến trang "Index" sau khi tạo thành công
             }
             return View(brand);
         }

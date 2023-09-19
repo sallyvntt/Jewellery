@@ -12,7 +12,6 @@ namespace EP_Jewellery.Models
         [MaxLength(50)]
         public string Cat_Name { get; set; } // Name Of Category
 
-        // Một danh sách các sản phẩm có quan hệ với CatMst nếu có
-        public List<ItemMst> Items { get; set; }
+       
     }
 }

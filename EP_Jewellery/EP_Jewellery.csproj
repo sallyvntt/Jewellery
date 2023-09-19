@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Brand\Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\FE\css\" />
     <Folder Include="wwwroot\FE\images\" />

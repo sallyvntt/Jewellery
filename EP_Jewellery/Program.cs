@@ -41,16 +41,25 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllerRoute(
+
+    endpoints.MapAreaControllerRoute(
         name: "admin",
-        pattern: "admin/admin/{controller=Home}/{action}/{id?}",
-        defaults: new { area = "Admin", action = "Index" }
+        areaName: "Admin",
+        pattern: "admin/{controller=Admin}/{action=Index}/{id?}"
+    );
+    // Thêm route mặc định cho "/admin" và chuyển hướng đến "admin/admin/"
+    endpoints.MapControllerRoute(
+        name: "admin-default",
+        pattern: "admin",
+        defaults: new { area = "Admin", controller = "Home", action = "Index" }
     );
 
-    endpoints.MapControllerRoute(
+
+    // Route cho khu vực "Brand"
+    endpoints.MapAreaControllerRoute(
         name: "brand",
-        pattern: "admin/brand/{action=Index}/{id?}", // Xóa controller=Home
-        defaults: new { area = "Brand", controller = "Home", action = "Index" } // Đặt controller = "Home"
+        areaName: "Brand",
+        pattern: "admin/brand/{controller=Brand}/{action=Index}/{id?}"
     );
 
     endpoints.MapControllerRoute(
