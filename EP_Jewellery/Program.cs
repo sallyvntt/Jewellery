@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using EP_Jewellery.Areas.Admin.Repository;
 using EP_Jewellery.Areas.Admin.Service;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,11 @@ builder.Services.AddScoped<ICat, CatService>();
 
 
 builder.Services.AddDbContext<JeweDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("String")));
+=======
+﻿var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+>>>>>>> parent of 21ebbc5 (1)
 builder.Services.AddControllersWithViews();
 builder.Services.AddCors(options =>
 {

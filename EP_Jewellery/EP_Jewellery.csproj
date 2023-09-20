@@ -7,18 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\Data\**" />
-    <Compile Remove="Data\**" />
-    <Content Remove="Areas\Admin\Data\**" />
-    <Content Remove="Data\**" />
-    <EmbeddedResource Remove="Areas\Admin\Data\**" />
-    <EmbeddedResource Remove="Data\**" />
-    <None Remove="Areas\Admin\Data\**" />
-    <None Remove="Data\**" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Controllers\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+>>>>>>> parent of 21ebbc5 (1)
     <Folder Include="wwwroot\FE\css\" />
     <Folder Include="wwwroot\FE\images\" />
     <Folder Include="wwwroot\FE\js\" />
