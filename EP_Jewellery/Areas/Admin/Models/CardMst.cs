@@ -2,7 +2,7 @@
 
 namespace EP_Jewellery.Models
 {
-    public class CatMst
+    public class CardMst
     {
         [Key]
         [MaxLength(10)]

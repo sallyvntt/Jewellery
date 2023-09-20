@@ -801,6 +801,7 @@ D:\EP_Jewellry\EP_Jewellry\EP_Jewellery\EP_Jewellery\obj\Debug\net6.0\refint\EP_
 D:\EP_Jewellry\EP_Jewellry\EP_Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.pdb
 D:\EP_Jewellry\EP_Jewellry\EP_Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.genruntimeconfig.cache
 D:\EP_Jewellry\EP_Jewellry\EP_Jewellery\EP_Jewellery\obj\Debug\net6.0\ref\EP_Jewellery.dll
+<<<<<<< HEAD
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\appsettings.json
 C:\Users\Administrator\Desktop\ĐỒ ÁN KỲ 3 JWELLL\Jewellery\EP_Jewellery\bin\Debug\net6.0\bundleconfig.json
@@ -1343,3 +1344,5 @@ D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\refint\EP_Jewellery.dll
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.pdb
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\EP_Jewellery.genruntimeconfig.cache
 D:\Jewellery\EP_Jewellery\obj\Debug\net6.0\ref\EP_Jewellery.dll
+=======
+>>>>>>> parent of 21ebbc5 (1)

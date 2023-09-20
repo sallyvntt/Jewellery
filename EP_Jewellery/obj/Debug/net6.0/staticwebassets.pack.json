@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "D:\\Jewellery\\EP_Jewellery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EP_Jewellery.bundle.scp.css",
       "PackagePath": "staticwebassets\\EP_Jewellery.bundle.scp.css"
     },
@@ -1858,6 +1859,1865 @@
     },
     {
       "Id": "D:\\Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\style.scss",
+=======
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EP_Jewellery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EP_Jewellery.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\BE\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\css\\font-face.css",
+      "PackagePath": "staticwebassets\\BE\\css\\font-face.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\css\\theme.css",
+      "PackagePath": "staticwebassets\\BE\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-100italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-200italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-600italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-900italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-italic.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-regular.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\BE\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\bg-title-01.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\bg-title-01.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\bg-title-02.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\bg-title-02.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\Untitled-1.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\Untitled-1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-01.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-02.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-02.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-03.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-03.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-04.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-04.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-05.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-05.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-06.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-06.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\avatar-big-01.jpg",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\avatar-big-01.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\logo-blue.png",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\logo-blue.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\logo-mini.png",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\logo-mini.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\logo-white.png",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\logo-white.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\BE\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\BE\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\js\\main.js",
+      "PackagePath": "staticwebassets\\BE\\js\\main.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\js\\moment.js",
+      "PackagePath": "staticwebassets\\BE\\js\\moment.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\media\\9606031aabebde32fa96edeff071a132.jpg",
+      "PackagePath": "staticwebassets\\BE\\media\\9606031aabebde32fa96edeff071a132.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\animsition\\animsition.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\animsition\\animsition.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\animsition\\animsition.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\animsition\\animsition.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\bootstrap-4.1\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\bootstrap-4.1\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\bootstrap-4.1\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\bootstrap-4.1\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\bootstrap-4.1\\popper.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\bootstrap-4.1\\popper.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\bootstrap-progressbar\\bootstrap-progressbar-3.3.4.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\bootstrap-progressbar\\bootstrap-progressbar-3.3.4.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\bootstrap-progressbar\\bootstrap-progressbar.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\bootstrap-progressbar\\bootstrap-progressbar.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\chartjs\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\chartjs\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\circle-progress\\circle-progress.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\circle-progress\\circle-progress.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\circle-progress\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\circle-progress\\circle-progress.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\countdown\\countdowntime.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\countdown\\countdowntime.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\countdown\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\countdown\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\countdown\\moment-timezone-with-data.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\countdown\\moment-timezone-with-data.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\countdown\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\countdown\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\countdown\\moment.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\countdown\\moment.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\counter-up\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\counter-up\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\counter-up\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\counter-up\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\counter-up\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\counter-up\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\BE\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\README.txt",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\README.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\gcal.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\be.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\be.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\bs.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ka.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sq.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\images\\close.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\images\\close.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\images\\next.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\images\\next.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\images\\prev.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\dist\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\images\\close.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\images\\close.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\images\\next.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\images\\next.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\images\\prev.png",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\lightbox2\\src\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\lightbox2\\src\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\BE\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\progressbar\\progressbar.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\progressbar\\progressbar.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\progressbar\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\progressbar\\progressbar.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\BE\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\smk-accordion\\accordion.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\smk-accordion\\accordion.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\smk-accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\smk-accordion\\accordion.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\smk-accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\smk-accordion\\accordion.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.brazil.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.brazil.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.france.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.france.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.germany.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.germany.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.russia.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.russia.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\wow\\animate.css",
+      "PackagePath": "staticwebassets\\BE\\vendor\\wow\\animate.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\BE\\vendor\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\BE\\vendor\\wow\\wow.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\aos.css",
+      "PackagePath": "staticwebassets\\FE\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\FE\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\FE\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\FE\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\FE\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\FE\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\FE\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\FE\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\site.css",
+      "PackagePath": "staticwebassets\\FE\\css\\site.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\css\\style.css",
+      "PackagePath": "staticwebassets\\FE\\css\\style.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\FE\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\blog_1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\children.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\children.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\cloth_1.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\cloth_1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\cloth_2.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\cloth_2.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\cloth_3.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\cloth_3.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\hero_1.png",
+      "PackagePath": "staticwebassets\\FE\\images\\hero_1.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\men.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\men.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\person_1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\person_2.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\person_3.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\person_4.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\shoe.png",
+      "PackagePath": "staticwebassets\\FE\\images\\shoe.png"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\shoe_1.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\shoe_1.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\images\\women.jpg",
+      "PackagePath": "staticwebassets\\FE\\images\\women.jpg"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\aos.js",
+      "PackagePath": "staticwebassets\\FE\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\FE\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\main.js",
+      "PackagePath": "staticwebassets\\FE\\js\\main.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\site.js",
+      "PackagePath": "staticwebassets\\FE\\js\\site.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\FE\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\FE\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\FE\\scss\\.DS_Store"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\_site-base.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\_site-base.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\_site-blocks.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\_site-blocks.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\_site-navbar.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\_site-navbar.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\FE\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\EP_Jewellry\\EP_Jewellry\\EP_Jewellery\\EP_Jewellery\\wwwroot\\FE\\scss\\style.scss",
+>>>>>>> parent of 21ebbc5 (1)
       "PackagePath": "staticwebassets\\FE\\scss\\style.scss"
     },
     {
